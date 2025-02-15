@@ -1,4 +1,4 @@
-FROM apline:3.21
+FROM alpine:3.21
 
 COPY bin/dirbackup /usr/local/bin/dirbackup
 
