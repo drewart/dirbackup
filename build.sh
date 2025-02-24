@@ -5,4 +5,6 @@ set -e
 
 go build -o ./bin/dirbackup ./cmd/dirbackup/main.go
 
+go build -o ./bin/dirsynctime ./cmd/dirsynctime/main.go
+
 docker buildx build -t dirbackup .
