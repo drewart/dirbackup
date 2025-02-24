@@ -1,1 +1,5 @@
 # dirbackup
+
+## todo
+
+- copy symlinks

@@ -5,7 +5,7 @@ set -e
 
 export GOOS=linux 
 export GOARCH=amd64
-go build -o ./bin/dirbackup main.go
+go build -o ./bin/dirbackup ./cmd/dirbackup/main.go
 
 docker buildx build --platform linux/amd64 -t dirbackup .
 
