@@ -118,7 +118,7 @@ func main() {
 		configFile = os.Args[1]
 	}
 
-	log.Printf("Loadding config %s\n:", configFile)
+	log.Printf("Loading config %s\n:", configFile)
 	config, err := loadConfig(configFile)
 	if err != nil {
 		log.Fatal(err)
