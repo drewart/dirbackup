@@ -1,0 +1,8 @@
+{
+    "source_dir": "./src",
+    "target_dir": "./trg",
+    "folders": ["a", "b", "c"],
+    "sleep-duration": "20s",
+    "folder-delay-duration": "10s",
+    "dirbackup-path": "../bin/dirbackup"
+}

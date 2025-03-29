@@ -1,9 +1,7 @@
 FROM alpine:3.21
 
-COPY bin/dirbackup /usr/local/bin/dirbackup
+COPY bin/* /usr/local/bin/
 
-COPY bin/dirsynctime /usr/local/bin/dirsynctime
-
-CMD /usr/local/bin/dirbackup
+CMD [ "sh", "-c", "/usr/local/bin/dirbackup-service" ]
 
 
